@@ -1,0 +1,183 @@
+  @import url('https://fonts.googleapis.com/css?family=Jacques Francois Shadow|Lancelot|Raleway');
+
+//INDEX AND LOGIN ADMIN PAGE
+ #nav {
+       box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.3), 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+    }
+   
+    #navbar p {
+      text-align: left;
+      letter-spacing: 3px;
+      font-family: roboto;
+      font-size: 30px;
+      border-bottom: 1px solid;
+    }
+    #navbar h2{
+      text-align: center;
+      overflow: hidden;
+      font-family: roboto;
+      letter-spacing: 2px;
+      margin-left: 30%;
+      margin-right: 30%;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.3), 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+    }
+    #navbar p img{
+     border-radius: 50px;
+     height: 50px;
+     padding: 5px;
+    }
+    #navbar{
+     background-color: #776CA5;
+     font-size: 30px;
+     padding-bottom: 5px;   
+    }
+    #indexcol img {
+      height: 100px;
+      margin-top: 60px;
+    }
+    #indexcol {
+      text-align: center;
+      font-family:  sans-serif; 
+      font-size: 15px;
+      letter-spacing: 3px;
+      box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.3), 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+    }
+    #indexcol input {
+      border: none;
+      border-bottom: 1px solid;
+      margin-top: 20px;
+      font-family: 'Raleway', cursive;
+      font-size: 14px;
+      padding: 10px 0;  
+      width: 70%;
+      outline: none;
+    }
+    .col-md-4 form div label {
+     position: absolute;
+     top: 30px;
+     left: 0px;
+     font-family: roboto;
+     width: 50%;
+     color: #999;
+     transition: .5s;
+     pointer-events: none;
+    }
+    #indexcol form div {
+      position: relative;
+    }
+    #indexcol input:focus ~ label {
+      top: 0px;
+      left: 0;
+      color: #f7497d;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    #indexcol input:focus{
+      color: #f7497d;
+    }  
+    #indexcol input:valid ~label{
+      top: 0px;
+    }
+    #indexcol button {
+      margin-top: 100px;
+      margin-bottom: 20px; 
+      box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.3), 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+      width: 215px;
+      border-radius: 20px;
+      width:70%;
+      padding: 8px;
+    }
+    #error {
+      font-family: roboto;
+      font-weight: 300;
+      color: #D8000C;
+      margin-top: 40px;
+      font-size: 15px;
+      letter-spacing: 2px;
+      background-color: #FFD2D2;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.3), 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+    }      
+    .model-title{
+      text-align: center;
+      font-size: 30px;
+      color: red;
+      letter-spacing: 3px;
+    }
+
+
+
+
+//ADMIN PAGE
+    #navbar button{
+    float:right;
+    }
+    #admincol4 {
+    text-align: center;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.3), 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+    padding:30px;
+  }
+      
+    #adminLogout {
+    padding: 10px;
+    border-radius: 50px;
+    float: center;
+    }
+    #adminModalBody input{
+    border: 1px solid;
+    width: 50%;
+    padding:4px;
+    border-radius: 5px;
+    }
+
+    #model2 input {
+    border: 1px solid;
+    width: 50%;
+    padding:4px;
+
+    }
+    .val_error{
+    color: red; 
+    }
+    #head {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    }
+    #adminModalBody {
+    background :url("tt.jpg");
+    }
+    #adminModalContent{
+    opacity: 0.8;
+    }
+    #adminBtnSuccess{
+    width: 60%;
+    border-radius: 25px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.3), 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+    }
+    #list{
+    width: 50%;
+    margin-left: 25%;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.3), 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+    }
+    #subjectlabel{
+    background-color:white;
+    font-size:20px;
+    padding:5px;
+    padding-left:50px;
+    padding-right:50px;
+    font-family:roboto;
+    letter-spacing:2px;
+    font-weight:bold;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.3), 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+    }
+  
+
+
+
+//VIEW STUDENTS AND TEACHERS
+    
+    
+   
